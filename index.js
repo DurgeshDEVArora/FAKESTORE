@@ -2,7 +2,8 @@ import express from "express";
 import dotenv from "dotenv";
 import ConnectDB from "./config/Database.js";
 import router from "./routes/routes.js";
-import { GetAllProducts } from "./controller/Product.js";
+
+
 dotenv.config();
 
 const app = express();

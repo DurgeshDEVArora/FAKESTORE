@@ -2,7 +2,7 @@
   "name": "storeapi",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "Fake Store API Provides Free E-commerce API for Developers to Help Them in Projects",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
