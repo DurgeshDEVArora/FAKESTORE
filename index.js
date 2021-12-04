@@ -13,6 +13,9 @@ app.use(express.urlencoded({ extended: true }));
 
 ConnectDB();
 app.use("/api", router);
+app.get('/',async(req,res)=>{
+res.status(200).json("Welcome to fake-store")
+})
 
 const Port = process.env.PORT || 5000;
 app.listen(Port, console.log("Server Started"));
